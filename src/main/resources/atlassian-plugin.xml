@@ -1,0 +1,13 @@
+<atlassian-plugin key="${project.groupId}.${project.artifactId}"
+	name="${project.name}" plugins-version="2">
+	<plugin-info>
+		<description>${project.description}</description>
+		<version>${project.version}</version>
+		<vendor name="${project.organization.name}" url="${project.organization.url}" />
+	</plugin-info>
+
+	<component key="autowatchJira" class="org.openmrs.jira.plugins.AutowatchJira">
+		<description>Automatically adds user who edits/comments on an issue to the issue watcher list.</description>
+	</component>
+
+</atlassian-plugin>

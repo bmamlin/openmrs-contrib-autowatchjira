@@ -11,7 +11,7 @@ Use JIRA's awesome plugin manager to install from the plugin repository.
 
 Configuration
 -------------
-Within JIRA with Autowatch Jira installed, navigate to `Administration &gt; System &gt; Advanced &gt; Listeners` 
+Within JIRA with Autowatch Jira installed, navigate to `Administration > System > Advanced > Listeners` 
 and you should see an `Autowatch Jira Listener` entry.  If you click on the Edit link for this listener, you 
 will see two settings:
 

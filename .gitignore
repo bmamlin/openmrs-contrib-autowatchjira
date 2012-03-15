@@ -12,3 +12,4 @@
 *.sqlite
 .DS_Store*
 .settings
+target
